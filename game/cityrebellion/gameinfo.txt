@@ -1,0 +1,22 @@
+"GameInfo"
+{
+	game	"City Rebellion R2"
+	title	"City Rebellion R2"
+	type	singleplayer_only
+
+	developer	"Eric Flynn"
+	developer_url	"http://www.parseerror.com/eric"
+	icon		"resource/cricon"
+
+	FileSystem
+	{
+		SteamAppId				215
+		ToolsAppId				211
+		
+		SearchPaths
+		{
+			Game				|gameinfo_path|.
+			Game				hl2
+		}
+	}
+}
